@@ -27,9 +27,7 @@ The system follows a pipeline architecture with three main blocks:
 2. **Task Generation**: Creates detailed tasks with assignments and dependencies
 3. **Generative Calendar**: Schedules tasks with realistic dates and times
 
-<div align="center">
-  <img src="https://alexnix.com/images/research/oneshot/schema.jpg" alt="Generative Management Schema" width="80%">
-</div>
+![S-AI (2)](https://github.com/user-attachments/assets/9cac8f5e-05e3-4a08-aef7-a84421ee9b36)
 
 ## Files and Structure
 
