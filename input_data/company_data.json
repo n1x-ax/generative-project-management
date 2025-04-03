@@ -1,0 +1,53 @@
+{
+  "organization": {
+    "name": "TechStart Co.",
+    "about": "We create practical AI tools for small and medium businesses. Our goal is to make advanced technology accessible by developing solutions that improve productivity and drive growth."
+  },
+  "team_members": [
+    {
+      "name": "Emily Davis",
+      "role": "Product Manager",
+      "responsibilities": "Develop products, meet customer needs, innovate, keep a user-centered approach."
+    },
+    {
+      "name": "Alexei Ivanov",
+      "role": "CTO",
+      "responsibilities": "Oversee tech development, implement AI solutions, maintain technical excellence."
+    },
+    {
+      "name": "Ivan Tech",
+      "role": "Software Engineer",
+      "responsibilities": "Build AI applications, develop features, ensure high-quality code."
+    },
+    {
+      "name": "Lucas Martinez",
+      "role": "Sales Manager",
+      "responsibilities": "Manage sales strategies, close deals, build client relationships, drive revenue."
+    },
+    {
+      "name": "Sophie Chen",
+      "role": "UX/UI Designer",
+      "responsibilities": "Design intuitive interfaces, create user flows, ensure accessibility, develop visual assets."
+    },
+    {
+      "name": "Marcus Johnson",
+      "role": "QA Engineer",
+      "responsibilities": "Ensure software quality, conduct thorough testing, identify bugs, validate requirements."
+    },
+    {
+      "name": "Priya Sharma",
+      "role": "Data Scientist",
+      "responsibilities": "Develop predictive models, analyze data patterns, implement machine learning algorithms."
+    },
+    {
+      "name": "David Kim",
+      "role": "DevOps Engineer",
+      "responsibilities": "Manage deployments, build CI/CD pipelines, handle infrastructure, ensure system stability."
+    },
+    {
+      "name": "Maria Rodriguez",
+      "role": "Customer Success Manager",
+      "responsibilities": "Gather user feedback, ensure customer satisfaction, provide support, identify improvement areas."
+    }
+  ]
+} 

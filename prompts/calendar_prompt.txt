@@ -1,0 +1,57 @@
+Based on the comprehensive project information and detailed tasks provided, create a realistic calendar schedule for the project. The calendar should include start and end dates for each task, considering dependencies, estimated hours, and the nature of each task.
+
+TODAY'S DATE: {current_date} (Use this as the project start date)
+
+PROJECT CONTEXT:
+Title: {project_title}
+Description: {project_description}
+Draft Plan: {draft_plan}
+
+TASKS:
+{enhanced_tasks}
+
+SCHEDULING GUIDELINES:
+1. Create a realistic schedule that respects human capabilities and work-life balance
+2. Different task types require different scheduling approaches:
+   - Meeting tasks: Schedule for 1-2 hours within a single working day
+   - Research tasks: Can span multiple days depending on complexity
+   - Design tasks: Typically take 1-3 days depending on estimated hours
+   - Development tasks: Schedule across multiple days based on estimated hours
+   - Testing tasks: Allocate appropriate time based on complexity
+   - Documentation tasks: Schedule based on estimated hours and complexity
+   - Marketing tasks: Schedule appropriate duration based on deliverables
+3. Each team member should not be overloaded with parallel tasks
+4. Working hours are 8 hours per day, Monday through Friday only
+5. Account for all task dependencies when scheduling
+6. Each task's duration should respect its estimated hours, spreading hours across working days
+7. The schedule should include all tasks from the provided task list, using the exact same task names and assignees
+
+For each task in the schedule, please include:
+1. Task ID: Use the exact task_id from the provided tasks
+2. Task name: Use the exact task_name from the provided tasks
+3. Assignee: Use the exact assignee from the provided tasks
+4. Tag: Use the tag categorization from the provided tasks
+5. Start date (YYYY-MM-DD format)
+6. End date (YYYY-MM-DD format)
+7. Start time (HH:MM format, for meeting-type tasks only)
+8. End time (HH:MM format, for meeting-type tasks only)
+9. Status: Use "Not Started" as default
+
+For non-meeting tasks, leave start_time and end_time as null.
+For meeting tasks, set both start_date and end_date to the same date, and include specific start_time and end_time.
+
+The output should be in JSON format with the following structure:
+
+[
+  {
+    "task_id": "string",
+    "task_name": "string",
+    "assignee": "string",
+    "tag": "string",
+    "start_date": "YYYY-MM-DD",
+    "end_date": "YYYY-MM-DD",
+    "start_time": "HH:MM or null",
+    "end_time": "HH:MM or null",
+    "status": "string"
+  }
+] 

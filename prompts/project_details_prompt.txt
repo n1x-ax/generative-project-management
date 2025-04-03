@@ -1,0 +1,46 @@
+Your task is to carefully review the provided project information. Analyze it for the subject, direction of work, key objectives, and essential context.
+
+The project information: {project_info}
+
+Additionally, identify potential project directions and main subjects that the team can use for execution. If the provided details are insufficient, adjust the information by adding clear points covering the project's main directions and subjects.
+
+Use the following information for additional analysis: {project_description}
+
+Based on your analysis, provide the following information in JSON format:
+
+1. Title: A short title for the project (2-3 words maximum).
+2. Description: A one-sentence summary of the project's main focus.
+3. Detailed Analysis:
+4. Summary: A brief overview of the project, including key directions and subjects.
+5. Roadmap: A structured breakdown of execution steps with titles and descriptions.
+6. Draft Plan: A basic execution plan with improvements based on available information.
+7. Objectives: A single clear and concise objective the project aims to achieve, with a short description of its importance.
+8. Key Points: Two main points of focus or unique aspects of the project, each with a brief explanation.
+
+Include relevant information about the project team if applicable: {project_team_context}
+
+You are not constrained on the number of roadmap steps, objectives, or key points. Provide as many as needed for comprehensive execution. If there is insufficient information, you may choose to omit certain elements.
+
+The output should be in json format with following structure:
+
+[
+  {
+    "title": "string",
+    "description": "string",
+    "detailed_analyzis": {
+      "summary": "string",
+      "roadmap": [
+        { "title": "string", "description": "string" },
+        { "title": "string", "description": "string" }
+      ]
+    },
+    "draft_plan": "string",
+    "objectives": [
+      { "objective": "string", "description": "string" }
+    ],
+    "key_points": [
+      { "key_point": "string", "description": "string" },
+      { "key_point": "string", "description": "string" }
+    ]
+  }
+] 

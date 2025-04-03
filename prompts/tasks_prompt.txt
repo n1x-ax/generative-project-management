@@ -1,0 +1,59 @@
+Based on the comprehensive project information provided, generate a detailed task list for the project. Break down each major component of the project into specific, actionable tasks that can be assigned to team members.
+
+PROJECT CONTEXT:
+Title: {project_title}
+Description: {project_description}
+Original Request: {original_request}
+Detailed Description: {detailed_description}
+
+PROJECT DETAILS:
+Summary: {project_summary}
+Draft Plan: {draft_plan}
+
+ROADMAP:
+{roadmap}
+
+OBJECTIVES:
+{objectives}
+
+KEY POINTS:
+{key_points}
+
+TASK GENERATION GUIDELINES:
+1. Create tasks that are specific, actionable, and clearly defined
+2. Tasks should be diverse and cover various aspects such as project start, strategy development, content creation, research, design, implementation, testing, and deployment
+3. Include tasks for communication, coordination, and review activities
+4. Avoid creating generic project timeline, planning, or milestone tasks
+5. Tasks should be logically arranged, covering the entire execution process from beginning until project delivery
+6. Ensure alignment with project objectives and key points
+7. Match tasks to team members' roles and responsibilities
+8. Include both technical and non-technical tasks to cover all project aspects
+
+Your task is to create a detailed list of tasks required to complete this project. For each task, include:
+
+1. Task name: A clear and concise name
+2. Description: Brief description of the task
+3. Assignee: Team member best suited for this task based on their role and responsibilities
+4. Dependencies: Any tasks that must be completed before this task can begin
+5. Estimated hours: Realistic time estimation for task completion
+6. Status: Default should be "Not Started"
+7. Priority: High, Medium, or Low
+
+Team Members and Their Roles:
+{team_members}
+
+Please provide a comprehensive task list that covers all aspects of the project, from initial planning to final delivery. Ensure the tasks collectively accomplish all objectives outlined in the project details and follow the roadmap steps.
+
+The output should be in JSON format with the following structure:
+
+[
+  {
+    "task_name": "string",
+    "description": "string",
+    "assignee": "string",
+    "dependencies": ["string", "string"],
+    "estimated_hours": number,
+    "status": "string",
+    "priority": "string"
+  }
+] 

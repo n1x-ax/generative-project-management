@@ -1,0 +1,31 @@
+You will be given a user's query and team context related to the project, and your task is to carefully analyze the entry data to understand the user's needs and the team's objectives, regardless of the project they want to start. This information should be a strong foundation for the new project for this team.
+
+You need to first take a pause to create a chain of thoughts, and then, based on this information, please provide the following JSON output, containing the detailed information about the future project and its team:
+
+{
+  "team": {
+    "organization": {
+      "name": "string", // Organization name
+      "industry": "string", // Industry sector the organization operates in
+      "members": "number" // Number of team members
+    },
+    "team_members": [
+      {
+        "name": "string", // Name of the team member
+        "role": "string", // Role within the team (e.g., project manager, developer)
+        "responsibilities": "string" // Responsibilities and tasks of the team member in the organizational context
+      },
+      {
+        "name": "string",
+        "role": "string",
+        "responsibilities": "string"
+      }
+    ],
+    "team_context": "string" // Context of the team's work, independent of the current project (e.g., goals and objectives of the team)
+  },
+  "project": {
+    "user_request": "string", // User request: main needs and requirements for the project
+    "description": "string", // Detailed description of the project including all necessary details and requirements
+    "team_context": "string" // Context of the team's work on the project, including goals and objectives of the team within this project
+  }
+} 

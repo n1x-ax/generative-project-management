@@ -1,0 +1,3 @@
+An AI-powered CRM system for small businesses that enhances customer relationships through chatbots and personalized interactions.
+Key features include predictive analytics, multi-channel communication management, and advanced reporting.
+The system should integrate with existing tools (email marketing platforms, helpdesk software) and offer an intuitive, responsive interface. 
